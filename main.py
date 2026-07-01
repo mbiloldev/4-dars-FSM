@@ -8,7 +8,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # .env fayldan o'zgaruvchilarni yuklash
-load_dotenv()
+load_dotenv()vf
 dv
 # Bot va Dispatcher obyektlarini yaratish
 bot = Bot(token=os.getenv("BOT_TOKEN"))
