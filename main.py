@@ -9,7 +9,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 
 # .env fayldan o'zgaruvchilarni yuklash
 load_dotenv()
-
+dv
 # Bot va Dispatcher obyektlarini yaratish
 bot = Bot(token=os.getenv("BOT_TOKEN"))
 dp = Dispatcher(storage=MemoryStorage())
